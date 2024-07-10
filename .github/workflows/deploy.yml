@@ -26,7 +26,7 @@ jobs:
     - name: Build project
       run: |
           echo "Building the project..."
-          CI=false npm run build
+          npm run build
           echo "Build completed"
 
     - name: Deploy to GitHub Pages
