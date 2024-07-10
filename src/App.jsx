@@ -37,7 +37,7 @@ const App = () => {
   return(
     <>
       <theContext.Provider value={{currentState,setCurrent, data, selectedArticle, setSelectedArticle}}>
-      <BrowserRouter basename='/MyDeployment'>
+      <BrowserRouter >
         {/* {currentState === "Home" && <Home />}
         {currentState === "About" && <AboutSection/>}
         {currentState === "Ajouter" && <Ajouter/>}
